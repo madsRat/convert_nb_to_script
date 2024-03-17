@@ -1,8 +1,8 @@
 # Convert Notebook to Script Assignment
 
 Introduction:
-This program plots crash rates based on vehicle and person dataset from NHTSA. 
-Using 2021 CRSS dataset from NHTSA. All csv format.
+This program plots crash rates based on vehicle and person dataset from NHTSA. Using 2021 CRSS dataset from NHTSA. All csv format.
+It produces a png output file that shows vehicle crash rates.
 
 Dataset candidates: accident, vehicle, person, weather, distract, damage, violation
 
