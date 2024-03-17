@@ -1,6 +1,7 @@
 # Convert Notebook to Script Assignment
 
-Plan to use the 2021 CRSS dataset from NHTSA. All csv format.
+Plot crash rates based on vehicle and person dataset from NHTSA.
+Using 2021 CRSS dataset from NHTSA. All csv format.
 https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/CRSS/2021/
 
 CRSS2021CSV.zip
