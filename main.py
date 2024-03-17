@@ -1,5 +1,6 @@
 from load_data import load_csv_data
 from clean_data import clean_csv_data
+from plot_data import plot_csv_data
 
 if __name__ == '__main__':
     import argparse
@@ -13,7 +14,9 @@ if __name__ == '__main__':
     df_vehicle, df_person = load_csv_data(args.input_vehicle_csv, args.input_person_csv)
 
     # clean data
-    df_inj_sev_count = clean_csv_data(df_vehicle, df_person)
+    df_merged = clean_csv_data(df_vehicle, df_person)
 
     # plot data
+    plot_csv_data(df_merged, args.output_file)
 
+    print('Process Complete.')

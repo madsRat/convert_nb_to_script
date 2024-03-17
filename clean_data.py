@@ -35,4 +35,4 @@ def clean_csv_data(df_vehicle, df_person):
     print(df_inj_sev_count)
     print(df_inj_sev_count['INJ_SEV'])
     print(df_inj_sev_count.index)
-    return df_inj_sev_count
+    return df_merged
